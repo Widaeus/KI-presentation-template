@@ -23,18 +23,24 @@ git clone https://github.com/Widaeus/KI-presentation-template
 ```
 
 2. 
+Navigate to directory
+```bash
+cd/KI-presentation-template
+```
+
+3. 
 Make sure you have Node.js installed. Then, run:
 ```bash
 npm install
 ```
 
-3. 
+4. 
 Run Gulp for development: To start the local development server and build the project, run:
 ```bash
 gulp
 ```
 
-4. 
+5. 
 Build the presentation: If you want to manually build the project, use Rollup or Quarto depending on what you're targeting:
 ```bash
 quarto render index.qmd
