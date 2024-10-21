@@ -1,4 +1,4 @@
-# Readme
+# KI presentation template
 This repository provides a template for presentations featuring the logo of the Karolinska Institute, Department of Clinical Sciences, Danderyd Hospital. The presentations are generated as Reveal.js slides using Quarto.
 
 To create your presentation, edit the index.qmd file. Quarto will generate the index.html file, which is the final presentation. This file can be hosted on a web server or viewed locally in any web browser.
