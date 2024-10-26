@@ -1,15 +1,19 @@
-/* Set the slide background to white */
 .reveal {
-    background-color: #ffffff;  /* White background */
-    color: #333333;  /* Dark text for better readability */
+    background-color: #ffffff;
+    color: #333333;
 }
 
 /* Dark Plum headers */
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-    color: #4F0433;  /* Dark Plum */
+    color: #4F0433;
 }
 
-/* Decrease font size of all text within the .content class */
-.content {
-    font-size: 80%;
+/* Make h2 headers a bit smaller */
+.reveal h2 {
+    font-size: 1.5em;
+}
+
+/* Make standard text 25px */
+.reveal p, .reveal li {
+    font-size: 25px;
 }
